@@ -1,0 +1,704 @@
+2024-02-13 14:23:20,161 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:23:20,162 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:23:24,584 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:23:24,584 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:23:24,584 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:23:24,585 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:23:24,585 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:23:24,585 | DEBUG | Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+2024-02-13 14:23:24,585 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:23:24,585 | DEBUG | Downloading chromedriver 121.0.6167.85 from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/121.0.6167.85/win64/chromedriver-win64.zip
+2024-02-13 14:23:24,585 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:23:24,585 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:23:24,585 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:23:25,333 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 50164 using 0 to output -3
+2024-02-13 14:23:25,907 | DEBUG | POST http://localhost:54251/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:23:25,908 | DEBUG | Starting new HTTP connection (1): localhost:54251
+2024-02-13 14:23:27,410 | DEBUG | http://localhost:54251 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:23:27,410 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir50164_1389419775"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:54265"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"e129f68795b2f101c4c36a0c5cfeddd1"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:23:27,410 | DEBUG | Finished Request
+2024-02-13 14:23:27,410 | DEBUG | POST http://localhost:54251/session/e129f68795b2f101c4c36a0c5cfeddd1/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:23:28,503 | DEBUG | http://localhost:54251 "POST /session/e129f68795b2f101c4c36a0c5cfeddd1/url HTTP/1.1" 200 0
+2024-02-13 14:23:28,503 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:23:28,503 | DEBUG | Finished Request
+2024-02-13 14:24:46,056 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:24:46,057 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:24:47,536 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:24:47,536 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:24:47,536 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:24:47,536 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:24:47,536 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:24:47,536 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:24:47,536 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:24:47,536 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:24:47,536 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:24:47,536 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:24:47,724 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 23668 using 0 to output -3
+2024-02-13 14:24:48,268 | DEBUG | POST http://localhost:54381/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:24:48,269 | DEBUG | Starting new HTTP connection (1): localhost:54381
+2024-02-13 14:24:49,705 | DEBUG | http://localhost:54381 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:24:49,705 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir23668_145239678"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:54394"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"a643fc86b93c26e8489ea03031e30279"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:24:49,705 | DEBUG | Finished Request
+2024-02-13 14:24:49,705 | DEBUG | POST http://localhost:54381/session/a643fc86b93c26e8489ea03031e30279/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:24:50,465 | DEBUG | http://localhost:54381 "POST /session/a643fc86b93c26e8489ea03031e30279/url HTTP/1.1" 200 0
+2024-02-13 14:24:50,465 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:24:50,465 | DEBUG | Finished Request
+2024-02-13 14:24:51,466 | DEBUG | POST http://localhost:54381/session/a643fc86b93c26e8489ea03031e30279/elements {'using': 'css selector', 'value': '.input'}
+2024-02-13 14:24:51,498 | DEBUG | http://localhost:54381 "POST /session/a643fc86b93c26e8489ea03031e30279/elements HTTP/1.1" 200 0
+2024-02-13 14:24:51,498 | DEBUG | Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:24:51,499 | DEBUG | Finished Request
+2024-02-13 14:40:23,000 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:40:23,001 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:40:24,641 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:40:24,641 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:40:24,641 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:40:24,641 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:40:24,641 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:40:24,641 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:40:24,642 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:40:24,642 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:40:24,642 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:40:24,642 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:40:24,966 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 33392 using 0 to output -3
+2024-02-13 14:40:25,512 | DEBUG | POST http://localhost:55622/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:40:25,513 | DEBUG | Starting new HTTP connection (1): localhost:55622
+2024-02-13 14:40:26,930 | DEBUG | http://localhost:55622 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:40:26,930 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir33392_727368057"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:55630"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"f1fe54075930624010278ac7aada0938"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:40:26,931 | DEBUG | Finished Request
+2024-02-13 14:40:26,931 | DEBUG | POST http://localhost:55622/session/f1fe54075930624010278ac7aada0938/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:40:27,761 | DEBUG | http://localhost:55622 "POST /session/f1fe54075930624010278ac7aada0938/url HTTP/1.1" 200 0
+2024-02-13 14:40:27,761 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:40:27,761 | DEBUG | Finished Request
+2024-02-13 14:40:28,762 | DEBUG | POST http://localhost:55622/session/f1fe54075930624010278ac7aada0938/elements {'using': 'css selector', 'value': '._ab32'}
+2024-02-13 14:40:28,790 | DEBUG | http://localhost:55622 "POST /session/f1fe54075930624010278ac7aada0938/elements HTTP/1.1" 200 0
+2024-02-13 14:40:28,790 | DEBUG | Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"8302D115053775F7AD8A30D3B4F1D049_element_18"},{"element-6066-11e4-a52e-4f735466cecf":"8302D115053775F7AD8A30D3B4F1D049_element_19"}]} | headers=HTTPHeaderDict({'Content-Length': '183', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:40:28,790 | DEBUG | Finished Request
+2024-02-13 14:40:28,790 | DEBUG | POST http://localhost:55622/session/f1fe54075930624010278ac7aada0938/element/8302D115053775F7AD8A30D3B4F1D049_element_18/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 14:40:28,855 | DEBUG | http://localhost:55622 "POST /session/f1fe54075930624010278ac7aada0938/element/8302D115053775F7AD8A30D3B4F1D049_element_18/value HTTP/1.1" 400 0
+2024-02-13 14:40:28,855 | DEBUG | Remote response: status=400 | data={"value":{"error":"element not interactable","message":"element not interactable\n  (Session info: chrome=121.0.6167.161)","stacktrace":"\tGetHandleVerifier [0x00007FF798415E42+3538674]\n\t(No symbol) [0x00007FF798034C02]\n\t(No symbol) [0x00007FF797EE599D]\n\t(No symbol) [0x00007FF797F26E87]\n\t(No symbol) [0x00007FF797F2597F]\n\t(No symbol) [0x00007FF797F4F0AA]\n\t(No symbol) [0x00007FF797F2124A]\n\t(No symbol) [0x00007FF797F4F2C0]\n\t(No symbol) [0x00007FF797F6BDE3]\n\t(No symbol) [0x00007FF797F4EE53]\n\t(No symbol) [0x00007FF797F1F514]\n\t(No symbol) [0x00007FF797F20631]\n\tGetHandleVerifier [0x00007FF798446CAD+3738973]\n\tGetHandleVerifier [0x00007FF79849C506+4089270]\n\tGetHandleVerifier [0x00007FF798494823+4057299]\n\tGetHandleVerifier [0x00007FF798165C49+720121]\n\t(No symbol) [0x00007FF79804126F]\n\t(No symbol) [0x00007FF79803C304]\n\t(No symbol) [0x00007FF79803C432]\n\t(No symbol) [0x00007FF79802BD04]\n\tBaseThreadInitThunk [0x00007FFA34FE7034+20]\n\tRtlUserThreadStart [0x00007FFA35682651+33]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1022', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:40:28,855 | DEBUG | Finished Request
+2024-02-13 14:41:47,260 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:41:47,260 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:41:48,837 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:41:48,837 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:41:48,837 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:41:48,837 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:41:48,837 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:41:48,838 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:41:48,838 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:41:48,838 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:41:48,838 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:41:48,838 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:41:49,050 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 30676 using 0 to output -3
+2024-02-13 14:41:49,604 | DEBUG | POST http://localhost:55745/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:41:49,605 | DEBUG | Starting new HTTP connection (1): localhost:55745
+2024-02-13 14:41:50,966 | DEBUG | http://localhost:55745 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:41:50,966 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir30676_2112176917"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:55752"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"78bfdd2e528049b6499c319cbbd11585"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:41:50,966 | DEBUG | Finished Request
+2024-02-13 14:41:50,966 | DEBUG | POST http://localhost:55745/session/78bfdd2e528049b6499c319cbbd11585/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:41:51,675 | DEBUG | http://localhost:55745 "POST /session/78bfdd2e528049b6499c319cbbd11585/url HTTP/1.1" 200 0
+2024-02-13 14:41:51,675 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:41:51,675 | DEBUG | Finished Request
+2024-02-13 14:41:52,676 | DEBUG | POST http://localhost:55745/session/78bfdd2e528049b6499c319cbbd11585/elements {'using': 'css selector', 'value': '._aa4b_add6_ac4d_ap35'}
+2024-02-13 14:41:52,692 | DEBUG | http://localhost:55745 "POST /session/78bfdd2e528049b6499c319cbbd11585/elements HTTP/1.1" 200 0
+2024-02-13 14:41:52,692 | DEBUG | Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:41:52,692 | DEBUG | Finished Request
+2024-02-13 14:43:11,549 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:43:11,550 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:43:13,091 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:43:13,091 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:43:13,091 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:43:13,091 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:43:13,092 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:43:13,092 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:43:13,092 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:43:13,092 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:43:13,092 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:43:13,092 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:43:13,287 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 50628 using 0 to output -3
+2024-02-13 14:43:13,824 | DEBUG | POST http://localhost:55880/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:43:13,825 | DEBUG | Starting new HTTP connection (1): localhost:55880
+2024-02-13 14:43:15,164 | DEBUG | http://localhost:55880 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:43:15,164 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir50628_1027992565"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:55889"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6a0c092942a0bc35fbf85d78cbfcde1f"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:43:15,165 | DEBUG | Finished Request
+2024-02-13 14:43:15,165 | DEBUG | POST http://localhost:55880/session/6a0c092942a0bc35fbf85d78cbfcde1f/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:43:15,868 | DEBUG | http://localhost:55880 "POST /session/6a0c092942a0bc35fbf85d78cbfcde1f/url HTTP/1.1" 200 0
+2024-02-13 14:43:15,869 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:43:15,869 | DEBUG | Finished Request
+2024-02-13 14:43:16,870 | DEBUG | POST http://localhost:55880/session/6a0c092942a0bc35fbf85d78cbfcde1f/elements {'using': 'css selector', 'value': '[name="username"]'}
+2024-02-13 14:43:16,885 | DEBUG | http://localhost:55880 "POST /session/6a0c092942a0bc35fbf85d78cbfcde1f/elements HTTP/1.1" 200 0
+2024-02-13 14:43:16,885 | DEBUG | Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"C27FCB976C9EAC5642C30AD3241B7E03_element_11"}]} | headers=HTTPHeaderDict({'Content-Length': '97', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:43:16,885 | DEBUG | Finished Request
+2024-02-13 14:43:55,954 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:43:55,954 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:43:57,622 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:43:57,622 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:43:57,622 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:43:57,622 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:43:57,622 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:43:57,622 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:43:57,622 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:43:57,622 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:43:57,622 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:43:57,623 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:43:57,834 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 28376 using 0 to output -3
+2024-02-13 14:43:58,399 | DEBUG | POST http://localhost:55967/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:43:58,400 | DEBUG | Starting new HTTP connection (1): localhost:55967
+2024-02-13 14:43:59,846 | DEBUG | http://localhost:55967 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:43:59,846 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir28376_1423456462"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:55974"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"46c0b019823bdc73ebb076b572d8cd18"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:43:59,847 | DEBUG | Finished Request
+2024-02-13 14:43:59,847 | DEBUG | POST http://localhost:55967/session/46c0b019823bdc73ebb076b572d8cd18/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:44:00,545 | DEBUG | http://localhost:55967 "POST /session/46c0b019823bdc73ebb076b572d8cd18/url HTTP/1.1" 200 0
+2024-02-13 14:44:00,545 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:44:00,545 | DEBUG | Finished Request
+2024-02-13 14:44:01,546 | DEBUG | POST http://localhost:55967/session/46c0b019823bdc73ebb076b572d8cd18/elements {'using': 'css selector', 'value': '[name="username"]'}
+2024-02-13 14:44:01,567 | DEBUG | http://localhost:55967 "POST /session/46c0b019823bdc73ebb076b572d8cd18/elements HTTP/1.1" 200 0
+2024-02-13 14:44:01,567 | DEBUG | Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"3B2AFFB25D290D232EBC70AA2289A53A_element_11"}]} | headers=HTTPHeaderDict({'Content-Length': '97', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:44:01,567 | DEBUG | Finished Request
+2024-02-13 14:44:06,568 | DEBUG | POST http://localhost:55967/session/46c0b019823bdc73ebb076b572d8cd18/element {'using': 'css selector', 'value': '._ac8f'}
+2024-02-13 14:44:06,583 | DEBUG | http://localhost:55967 "POST /session/46c0b019823bdc73ebb076b572d8cd18/element HTTP/1.1" 404 0
+2024-02-13 14:44:06,584 | DEBUG | Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._ac8f\"}\n  (Session info: chrome=121.0.6167.161)","stacktrace":"\tGetHandleVerifier [0x00007FF798415E42+3538674]\n\t(No symbol) [0x00007FF798034C02]\n\t(No symbol) [0x00007FF797EE5AEB]\n\t(No symbol) [0x00007FF797F2BF4E]\n\t(No symbol) [0x00007FF797F2C0CC]\n\t(No symbol) [0x00007FF797F6E477]\n\t(No symbol) [0x00007FF797F4F0EF]\n\t(No symbol) [0x00007FF797F6BDE3]\n\t(No symbol) [0x00007FF797F4EE53]\n\t(No symbol) [0x00007FF797F1F514]\n\t(No symbol) [0x00007FF797F20631]\n\tGetHandleVerifier [0x00007FF798446CAD+3738973]\n\tGetHandleVerifier [0x00007FF79849C506+4089270]\n\tGetHandleVerifier [0x00007FF798494823+4057299]\n\tGetHandleVerifier [0x00007FF798165C49+720121]\n\t(No symbol) [0x00007FF79804126F]\n\t(No symbol) [0x00007FF79803C304]\n\t(No symbol) [0x00007FF79803C432]\n\t(No symbol) [0x00007FF79802BD04]\n\tBaseThreadInitThunk [0x00007FFA34FE7034+20]\n\tRtlUserThreadStart [0x00007FFA35682651+33]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1049', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:44:06,584 | DEBUG | Finished Request
+2024-02-13 14:44:48,074 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:44:48,075 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:44:49,595 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:44:49,596 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:44:49,596 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:44:49,596 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:44:49,596 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:44:49,596 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:44:49,596 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:44:49,596 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:44:49,596 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:44:49,596 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:44:49,790 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 32140 using 0 to output -3
+2024-02-13 14:44:50,343 | DEBUG | POST http://localhost:56045/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:44:50,344 | DEBUG | Starting new HTTP connection (1): localhost:56045
+2024-02-13 14:44:51,699 | DEBUG | http://localhost:56045 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:44:51,699 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir32140_1578716154"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:56053"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"992dbc74e15ba2acf5547e186d151900"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:44:51,699 | DEBUG | Finished Request
+2024-02-13 14:44:51,699 | DEBUG | POST http://localhost:56045/session/992dbc74e15ba2acf5547e186d151900/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:44:52,470 | DEBUG | http://localhost:56045 "POST /session/992dbc74e15ba2acf5547e186d151900/url HTTP/1.1" 200 0
+2024-02-13 14:44:52,470 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:44:52,470 | DEBUG | Finished Request
+2024-02-13 14:44:53,470 | DEBUG | POST http://localhost:56045/session/992dbc74e15ba2acf5547e186d151900/elements {'using': 'css selector', 'value': '[name="username"]'}
+2024-02-13 14:44:53,491 | DEBUG | http://localhost:56045 "POST /session/992dbc74e15ba2acf5547e186d151900/elements HTTP/1.1" 200 0
+2024-02-13 14:44:53,491 | DEBUG | Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"92DA05C1FAB507D4E1A865F79712FFAE_element_81"}]} | headers=HTTPHeaderDict({'Content-Length': '97', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:44:53,492 | DEBUG | Finished Request
+2024-02-13 14:46:01,801 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:46:01,802 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:46:03,340 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:46:03,340 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:46:03,340 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:46:03,340 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:46:03,340 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:46:03,340 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:46:03,340 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:46:03,340 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:46:03,340 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:46:03,340 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:46:03,537 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 51668 using 0 to output -3
+2024-02-13 14:46:04,073 | DEBUG | POST http://localhost:56164/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:46:04,074 | DEBUG | Starting new HTTP connection (1): localhost:56164
+2024-02-13 14:46:05,404 | DEBUG | http://localhost:56164 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:46:05,404 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir51668_891478638"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:56170"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"c66255b816bdcca8174e5058986b1d7f"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:46:05,405 | DEBUG | Finished Request
+2024-02-13 14:46:05,405 | DEBUG | POST http://localhost:56164/session/c66255b816bdcca8174e5058986b1d7f/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:46:06,241 | DEBUG | http://localhost:56164 "POST /session/c66255b816bdcca8174e5058986b1d7f/url HTTP/1.1" 200 0
+2024-02-13 14:46:06,241 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:46:06,241 | DEBUG | Finished Request
+2024-02-13 14:46:07,243 | DEBUG | POST http://localhost:56164/session/c66255b816bdcca8174e5058986b1d7f/elements {'using': 'css selector', 'value': '._aa4b _add6 _ac4d _ap35'}
+2024-02-13 14:46:07,266 | DEBUG | http://localhost:56164 "POST /session/c66255b816bdcca8174e5058986b1d7f/elements HTTP/1.1" 200 0
+2024-02-13 14:46:07,267 | DEBUG | Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:46:07,267 | DEBUG | Finished Request
+2024-02-13 14:48:03,700 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:48:03,701 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:48:05,187 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:48:05,187 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:48:05,187 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:48:05,187 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:48:05,188 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:48:05,188 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:48:05,188 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:48:05,188 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:48:05,188 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:48:05,188 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:48:05,382 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 29168 using 0 to output -3
+2024-02-13 14:48:05,936 | DEBUG | POST http://localhost:56339/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:48:05,937 | DEBUG | Starting new HTTP connection (1): localhost:56339
+2024-02-13 14:48:07,272 | DEBUG | http://localhost:56339 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:48:07,272 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir29168_1860284406"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:56348"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"23f1c187115f2a4c20c6272f5c6f0e94"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:48:07,272 | DEBUG | Finished Request
+2024-02-13 14:48:07,272 | DEBUG | POST http://localhost:56339/session/23f1c187115f2a4c20c6272f5c6f0e94/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:48:08,014 | DEBUG | http://localhost:56339 "POST /session/23f1c187115f2a4c20c6272f5c6f0e94/url HTTP/1.1" 200 0
+2024-02-13 14:48:08,014 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:48:08,015 | DEBUG | Finished Request
+2024-02-13 14:48:09,015 | DEBUG | POST http://localhost:56339/session/23f1c187115f2a4c20c6272f5c6f0e94/elements {'using': 'css selector', 'value': '.x6s0dn4 xnz67gz x19gtwsn x1nk0tez x1xp9za0 x1hm1hlx x1npaq5j x1c83p5e x1enjb0b x199158v x13fuv20 xu...'}
+2024-02-13 14:48:09,036 | DEBUG | http://localhost:56339 "POST /session/23f1c187115f2a4c20c6272f5c6f0e94/elements HTTP/1.1" 200 0
+2024-02-13 14:48:09,037 | DEBUG | Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:48:09,037 | DEBUG | Finished Request
+2024-02-13 14:49:15,351 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:49:15,352 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:49:16,850 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:49:16,850 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:49:16,850 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:49:16,850 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:49:16,850 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:49:16,850 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:49:16,850 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:49:16,850 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:49:16,850 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:49:16,851 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:49:17,048 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 49516 using 0 to output -3
+2024-02-13 14:49:17,611 | DEBUG | POST http://localhost:56456/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:49:17,612 | DEBUG | Starting new HTTP connection (1): localhost:56456
+2024-02-13 14:49:19,007 | DEBUG | http://localhost:56456 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:49:19,008 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir49516_495534951"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:56464"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"514e6a9d552bf2c10a285f1c69f5a34e"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:49:19,008 | DEBUG | Finished Request
+2024-02-13 14:49:19,008 | DEBUG | POST http://localhost:56456/session/514e6a9d552bf2c10a285f1c69f5a34e/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:49:19,750 | DEBUG | http://localhost:56456 "POST /session/514e6a9d552bf2c10a285f1c69f5a34e/url HTTP/1.1" 200 0
+2024-02-13 14:49:19,750 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:49:19,750 | DEBUG | Finished Request
+2024-02-13 14:49:20,751 | DEBUG | POST http://localhost:56456/session/514e6a9d552bf2c10a285f1c69f5a34e/element {'using': 'css selector', 'value': '._aa4b _add6 _ac4d _ap35'}
+2024-02-13 14:49:20,774 | DEBUG | http://localhost:56456 "POST /session/514e6a9d552bf2c10a285f1c69f5a34e/element HTTP/1.1" 404 0
+2024-02-13 14:49:20,774 | DEBUG | Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._aa4b _add6 _ac4d _ap35\"}\n  (Session info: chrome=121.0.6167.161)","stacktrace":"\tGetHandleVerifier [0x00007FF798415E42+3538674]\n\t(No symbol) [0x00007FF798034C02]\n\t(No symbol) [0x00007FF797EE5AEB]\n\t(No symbol) [0x00007FF797F2BF4E]\n\t(No symbol) [0x00007FF797F2C0CC]\n\t(No symbol) [0x00007FF797F6E477]\n\t(No symbol) [0x00007FF797F4F0EF]\n\t(No symbol) [0x00007FF797F6BDE3]\n\t(No symbol) [0x00007FF797F4EE53]\n\t(No symbol) [0x00007FF797F1F514]\n\t(No symbol) [0x00007FF797F20631]\n\tGetHandleVerifier [0x00007FF798446CAD+3738973]\n\tGetHandleVerifier [0x00007FF79849C506+4089270]\n\tGetHandleVerifier [0x00007FF798494823+4057299]\n\tGetHandleVerifier [0x00007FF798165C49+720121]\n\t(No symbol) [0x00007FF79804126F]\n\t(No symbol) [0x00007FF79803C304]\n\t(No symbol) [0x00007FF79803C432]\n\t(No symbol) [0x00007FF79802BD04]\n\tBaseThreadInitThunk [0x00007FFA34FE7034+20]\n\tRtlUserThreadStart [0x00007FFA35682651+33]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1067', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:49:20,775 | DEBUG | Finished Request
+2024-02-13 14:49:59,063 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 14:49:59,064 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 14:50:00,612 | DEBUG | chromedriver not found in PATH
+2024-02-13 14:50:00,612 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:50:00,612 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 14:50:00,612 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 14:50:00,612 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 14:50:00,612 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 14:50:00,612 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 14:50:00,612 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:50:00,612 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 14:50:00,613 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 14:50:00,814 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 50540 using 0 to output -3
+2024-02-13 14:50:01,373 | DEBUG | POST http://localhost:56543/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 14:50:01,374 | DEBUG | Starting new HTTP connection (1): localhost:56543
+2024-02-13 14:50:02,806 | DEBUG | http://localhost:56543 "POST /session HTTP/1.1" 200 0
+2024-02-13 14:50:02,806 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir50540_249986264"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:56550"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"d90e5358c7f20e41023362e7c4f3f075"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:50:02,806 | DEBUG | Finished Request
+2024-02-13 14:50:02,806 | DEBUG | POST http://localhost:56543/session/d90e5358c7f20e41023362e7c4f3f075/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 14:50:03,646 | DEBUG | http://localhost:56543 "POST /session/d90e5358c7f20e41023362e7c4f3f075/url HTTP/1.1" 200 0
+2024-02-13 14:50:03,646 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:50:03,646 | DEBUG | Finished Request
+2024-02-13 14:50:04,648 | DEBUG | POST http://localhost:56543/session/d90e5358c7f20e41023362e7c4f3f075/element {'using': 'css selector', 'value': '._aa4b_add6_ac4d_ap35'}
+2024-02-13 14:50:04,664 | DEBUG | http://localhost:56543 "POST /session/d90e5358c7f20e41023362e7c4f3f075/element HTTP/1.1" 404 0
+2024-02-13 14:50:04,664 | DEBUG | Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._aa4b_add6_ac4d_ap35\"}\n  (Session info: chrome=121.0.6167.161)","stacktrace":"\tGetHandleVerifier [0x00007FF798415E42+3538674]\n\t(No symbol) [0x00007FF798034C02]\n\t(No symbol) [0x00007FF797EE5AEB]\n\t(No symbol) [0x00007FF797F2BF4E]\n\t(No symbol) [0x00007FF797F2C0CC]\n\t(No symbol) [0x00007FF797F6E477]\n\t(No symbol) [0x00007FF797F4F0EF]\n\t(No symbol) [0x00007FF797F6BDE3]\n\t(No symbol) [0x00007FF797F4EE53]\n\t(No symbol) [0x00007FF797F1F514]\n\t(No symbol) [0x00007FF797F20631]\n\tGetHandleVerifier [0x00007FF798446CAD+3738973]\n\tGetHandleVerifier [0x00007FF79849C506+4089270]\n\tGetHandleVerifier [0x00007FF798494823+4057299]\n\tGetHandleVerifier [0x00007FF798165C49+720121]\n\t(No symbol) [0x00007FF79804126F]\n\t(No symbol) [0x00007FF79803C304]\n\t(No symbol) [0x00007FF79803C432]\n\t(No symbol) [0x00007FF79802BD04]\n\tBaseThreadInitThunk [0x00007FFA34FE7034+20]\n\tRtlUserThreadStart [0x00007FFA35682651+33]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1064', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 14:50:04,664 | DEBUG | Finished Request
+2024-02-13 21:46:11,460 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 21:46:11,465 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 21:46:13,362 | DEBUG | chromedriver not found in PATH
+2024-02-13 21:46:13,362 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:46:13,362 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 21:46:13,362 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 21:46:13,362 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 21:46:13,363 | DEBUG | Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+2024-02-13 21:46:13,363 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 21:46:13,363 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 21:46:13,363 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:46:13,363 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:46:13,363 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:46:13,862 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 7032 using 0 to output -3
+2024-02-13 21:46:14,456 | DEBUG | POST http://localhost:57414/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 21:46:14,457 | DEBUG | Starting new HTTP connection (1): localhost:57414
+2024-02-13 21:46:15,976 | DEBUG | http://localhost:57414 "POST /session HTTP/1.1" 200 0
+2024-02-13 21:46:15,976 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir7032_544826706"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57423"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"520d9de33213e56efa5d079d422402a3"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:46:15,976 | DEBUG | Finished Request
+2024-02-13 21:46:15,976 | DEBUG | POST http://localhost:57414/session/520d9de33213e56efa5d079d422402a3/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 21:46:17,297 | DEBUG | http://localhost:57414 "POST /session/520d9de33213e56efa5d079d422402a3/url HTTP/1.1" 200 0
+2024-02-13 21:46:17,297 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:46:17,298 | DEBUG | Finished Request
+2024-02-13 21:46:18,299 | DEBUG | POST http://localhost:57414/session/520d9de33213e56efa5d079d422402a3/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[3]"}
+2024-02-13 21:46:18,321 | DEBUG | http://localhost:57414 "POST /session/520d9de33213e56efa5d079d422402a3/element HTTP/1.1" 200 0
+2024-02-13 21:46:18,321 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"A4F55B58288A30CA3362BF0223DAEF8D_element_458"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:46:18,321 | DEBUG | Finished Request
+2024-02-13 21:46:46,962 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 21:46:46,963 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 21:46:48,440 | DEBUG | chromedriver not found in PATH
+2024-02-13 21:46:48,440 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:46:48,440 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 21:46:48,440 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 21:46:48,440 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 21:46:48,440 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 21:46:48,440 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 21:46:48,440 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:46:48,440 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:46:48,440 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:46:48,636 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 29076 using 0 to output -3
+2024-02-13 21:46:49,176 | DEBUG | POST http://localhost:57492/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 21:46:49,177 | DEBUG | Starting new HTTP connection (1): localhost:57492
+2024-02-13 21:46:50,660 | DEBUG | http://localhost:57492 "POST /session HTTP/1.1" 200 0
+2024-02-13 21:46:50,660 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir29076_766871543"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57508"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"e4d9c316de06744a51ce3e4bee8a0d66"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:46:50,660 | DEBUG | Finished Request
+2024-02-13 21:46:50,660 | DEBUG | POST http://localhost:57492/session/e4d9c316de06744a51ce3e4bee8a0d66/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 21:46:51,912 | DEBUG | http://localhost:57492 "POST /session/e4d9c316de06744a51ce3e4bee8a0d66/url HTTP/1.1" 200 0
+2024-02-13 21:46:51,912 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:46:51,912 | DEBUG | Finished Request
+2024-02-13 21:46:52,914 | DEBUG | POST http://localhost:57492/session/e4d9c316de06744a51ce3e4bee8a0d66/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[3]"}
+2024-02-13 21:46:52,938 | DEBUG | http://localhost:57492 "POST /session/e4d9c316de06744a51ce3e4bee8a0d66/element HTTP/1.1" 200 0
+2024-02-13 21:46:52,938 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"B67F73BCD3643270A354248B83E848F3_element_458"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:46:52,938 | DEBUG | Finished Request
+2024-02-13 21:46:52,938 | DEBUG | POST http://localhost:57492/session/e4d9c316de06744a51ce3e4bee8a0d66/element/B67F73BCD3643270A354248B83E848F3_element_458/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 21:46:53,009 | DEBUG | http://localhost:57492 "POST /session/e4d9c316de06744a51ce3e4bee8a0d66/element/B67F73BCD3643270A354248B83E848F3_element_458/value HTTP/1.1" 400 0
+2024-02-13 21:46:53,009 | DEBUG | Remote response: status=400 | data={"value":{"error":"element not interactable","message":"element not interactable\n  (Session info: chrome=121.0.6167.161)","stacktrace":"\tGetHandleVerifier [0x00007FF6A5EA5E42+3538674]\n\t(No symbol) [0x00007FF6A5AC4C02]\n\t(No symbol) [0x00007FF6A597599D]\n\t(No symbol) [0x00007FF6A59B6E87]\n\t(No symbol) [0x00007FF6A59B597F]\n\t(No symbol) [0x00007FF6A59DF0AA]\n\t(No symbol) [0x00007FF6A59B124A]\n\t(No symbol) [0x00007FF6A59DF2C0]\n\t(No symbol) [0x00007FF6A59FBDE3]\n\t(No symbol) [0x00007FF6A59DEE53]\n\t(No symbol) [0x00007FF6A59AF514]\n\t(No symbol) [0x00007FF6A59B0631]\n\tGetHandleVerifier [0x00007FF6A5ED6CAD+3738973]\n\tGetHandleVerifier [0x00007FF6A5F2C506+4089270]\n\tGetHandleVerifier [0x00007FF6A5F24823+4057299]\n\tGetHandleVerifier [0x00007FF6A5BF5C49+720121]\n\t(No symbol) [0x00007FF6A5AD126F]\n\t(No symbol) [0x00007FF6A5ACC304]\n\t(No symbol) [0x00007FF6A5ACC432]\n\t(No symbol) [0x00007FF6A5ABBD04]\n\tBaseThreadInitThunk [0x00007FFA34FE7034+20]\n\tRtlUserThreadStart [0x00007FFA35682651+33]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1022', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:46:53,009 | DEBUG | Finished Request
+2024-02-13 21:48:53,495 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 21:48:53,496 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 21:48:54,998 | DEBUG | chromedriver not found in PATH
+2024-02-13 21:48:54,998 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:48:54,999 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 21:48:54,999 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 21:48:54,999 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 21:48:54,999 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 21:48:54,999 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 21:48:54,999 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:48:54,999 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:48:54,999 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:48:55,187 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 48352 using 0 to output -3
+2024-02-13 21:48:55,741 | DEBUG | POST http://localhost:57662/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 21:48:55,742 | DEBUG | Starting new HTTP connection (1): localhost:57662
+2024-02-13 21:48:57,144 | DEBUG | http://localhost:57662 "POST /session HTTP/1.1" 200 0
+2024-02-13 21:48:57,145 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir48352_217896116"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57668"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"1f789c9ce572b5020ba5564dd0f357cb"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:48:57,145 | DEBUG | Finished Request
+2024-02-13 21:48:57,145 | DEBUG | POST http://localhost:57662/session/1f789c9ce572b5020ba5564dd0f357cb/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 21:48:58,542 | DEBUG | http://localhost:57662 "POST /session/1f789c9ce572b5020ba5564dd0f357cb/url HTTP/1.1" 200 0
+2024-02-13 21:48:58,543 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:48:58,543 | DEBUG | Finished Request
+2024-02-13 21:48:59,544 | DEBUG | POST http://localhost:57662/session/1f789c9ce572b5020ba5564dd0f357cb/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]"}
+2024-02-13 21:48:59,558 | DEBUG | http://localhost:57662 "POST /session/1f789c9ce572b5020ba5564dd0f357cb/element HTTP/1.1" 200 0
+2024-02-13 21:48:59,559 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"8B96E963C4A4DA53BEB776E6E4E55EEC_element_82"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:48:59,559 | DEBUG | Finished Request
+2024-02-13 21:49:25,035 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 21:49:25,035 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 21:49:26,498 | DEBUG | chromedriver not found in PATH
+2024-02-13 21:49:26,499 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:49:26,499 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 21:49:26,499 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 21:49:26,499 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 21:49:26,499 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 21:49:26,499 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 21:49:26,499 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:49:26,499 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:49:26,500 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:49:26,701 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 47848 using 0 to output -3
+2024-02-13 21:49:27,245 | DEBUG | POST http://localhost:57725/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 21:49:27,246 | DEBUG | Starting new HTTP connection (1): localhost:57725
+2024-02-13 21:49:28,608 | DEBUG | http://localhost:57725 "POST /session HTTP/1.1" 200 0
+2024-02-13 21:49:28,608 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir47848_1426941946"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57732"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"850247bc2131505947619842a59e105c"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:49:28,608 | DEBUG | Finished Request
+2024-02-13 21:49:28,609 | DEBUG | POST http://localhost:57725/session/850247bc2131505947619842a59e105c/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 21:49:29,923 | DEBUG | http://localhost:57725 "POST /session/850247bc2131505947619842a59e105c/url HTTP/1.1" 200 0
+2024-02-13 21:49:29,923 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:49:29,924 | DEBUG | Finished Request
+2024-02-13 21:49:30,924 | DEBUG | POST http://localhost:57725/session/850247bc2131505947619842a59e105c/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]"}
+2024-02-13 21:49:30,943 | DEBUG | http://localhost:57725 "POST /session/850247bc2131505947619842a59e105c/element HTTP/1.1" 200 0
+2024-02-13 21:49:30,943 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"7873FF5B12F5DD3D2C6E57115528D459_element_389"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:49:30,943 | DEBUG | Finished Request
+2024-02-13 21:49:30,943 | DEBUG | POST http://localhost:57725/session/850247bc2131505947619842a59e105c/element/7873FF5B12F5DD3D2C6E57115528D459_element_389/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 21:49:31,056 | DEBUG | http://localhost:57725 "POST /session/850247bc2131505947619842a59e105c/element/7873FF5B12F5DD3D2C6E57115528D459_element_389/value HTTP/1.1" 200 0
+2024-02-13 21:49:31,056 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:49:31,057 | DEBUG | Finished Request
+2024-02-13 21:50:50,289 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 21:50:50,290 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 21:50:51,775 | DEBUG | chromedriver not found in PATH
+2024-02-13 21:50:51,775 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:50:51,775 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 21:50:51,775 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 21:50:51,775 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 21:50:51,775 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 21:50:51,775 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 21:50:51,775 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:50:51,775 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:50:51,775 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:50:51,963 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 18408 using 0 to output -3
+2024-02-13 21:50:52,512 | DEBUG | POST http://localhost:57851/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 21:50:52,512 | DEBUG | Starting new HTTP connection (1): localhost:57851
+2024-02-13 21:50:53,903 | DEBUG | http://localhost:57851 "POST /session HTTP/1.1" 200 0
+2024-02-13 21:50:53,903 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir18408_2005965026"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57862"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"14baf9922301f855e74d13f5a27737bf"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:50:53,904 | DEBUG | Finished Request
+2024-02-13 21:50:53,904 | DEBUG | POST http://localhost:57851/session/14baf9922301f855e74d13f5a27737bf/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 21:50:55,233 | DEBUG | http://localhost:57851 "POST /session/14baf9922301f855e74d13f5a27737bf/url HTTP/1.1" 200 0
+2024-02-13 21:50:55,233 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:50:55,233 | DEBUG | Finished Request
+2024-02-13 21:50:56,234 | DEBUG | POST http://localhost:57851/session/14baf9922301f855e74d13f5a27737bf/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]"}
+2024-02-13 21:50:56,250 | DEBUG | http://localhost:57851 "POST /session/14baf9922301f855e74d13f5a27737bf/element HTTP/1.1" 200 0
+2024-02-13 21:50:56,250 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"A014BD3405C21C0A08CD81D875FB0D93_element_389"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:50:56,250 | DEBUG | Finished Request
+2024-02-13 21:50:56,251 | DEBUG | POST http://localhost:57851/session/14baf9922301f855e74d13f5a27737bf/element/A014BD3405C21C0A08CD81D875FB0D93_element_389/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 21:50:56,350 | DEBUG | http://localhost:57851 "POST /session/14baf9922301f855e74d13f5a27737bf/element/A014BD3405C21C0A08CD81D875FB0D93_element_389/value HTTP/1.1" 200 0
+2024-02-13 21:50:56,350 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:50:56,350 | DEBUG | Finished Request
+2024-02-13 21:50:56,350 | DEBUG | POST http://localhost:57851/session/14baf9922301f855e74d13f5a27737bf/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[2]/div[1]/label[1]/input[1]"}
+2024-02-13 21:50:56,362 | DEBUG | http://localhost:57851 "POST /session/14baf9922301f855e74d13f5a27737bf/element HTTP/1.1" 200 0
+2024-02-13 21:50:56,362 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"A014BD3405C21C0A08CD81D875FB0D93_element_398"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:50:56,362 | DEBUG | Finished Request
+2024-02-13 21:50:56,362 | DEBUG | POST http://localhost:57851/session/14baf9922301f855e74d13f5a27737bf/element/A014BD3405C21C0A08CD81D875FB0D93_element_398/value {'text': 'qjarhfosksch', 'value': ['q', 'j', 'a', 'r', 'h', 'f', 'o', 's', 'k', 's', 'c', 'h']}
+2024-02-13 21:50:56,454 | DEBUG | http://localhost:57851 "POST /session/14baf9922301f855e74d13f5a27737bf/element/A014BD3405C21C0A08CD81D875FB0D93_element_398/value HTTP/1.1" 200 0
+2024-02-13 21:50:56,454 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:50:56,454 | DEBUG | Finished Request
+2024-02-13 21:50:56,454 | DEBUG | POST http://localhost:57851/session/14baf9922301f855e74d13f5a27737bf/element/A014BD3405C21C0A08CD81D875FB0D93_element_398/value {'text': '\ue006', 'value': ['\ue006']}
+2024-02-13 21:50:56,505 | DEBUG | http://localhost:57851 "POST /session/14baf9922301f855e74d13f5a27737bf/element/A014BD3405C21C0A08CD81D875FB0D93_element_398/value HTTP/1.1" 200 0
+2024-02-13 21:50:56,505 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:50:56,505 | DEBUG | Finished Request
+2024-02-13 21:51:23,306 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 21:51:23,306 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 21:51:24,806 | DEBUG | chromedriver not found in PATH
+2024-02-13 21:51:24,807 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:51:24,807 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 21:51:24,807 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 21:51:24,807 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 21:51:24,807 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 21:51:24,807 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 21:51:24,807 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:51:24,807 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 21:51:24,807 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 21:51:24,996 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 38316 using 0 to output -3
+2024-02-13 21:51:25,545 | DEBUG | POST http://localhost:57940/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 21:51:25,546 | DEBUG | Starting new HTTP connection (1): localhost:57940
+2024-02-13 21:51:27,136 | DEBUG | http://localhost:57940 "POST /session HTTP/1.1" 200 0
+2024-02-13 21:51:27,136 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir38316_1088908498"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57946"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"79edc498bb07c51bf48f51d3a1d81501"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:51:27,137 | DEBUG | Finished Request
+2024-02-13 21:51:27,137 | DEBUG | POST http://localhost:57940/session/79edc498bb07c51bf48f51d3a1d81501/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 21:51:28,454 | DEBUG | http://localhost:57940 "POST /session/79edc498bb07c51bf48f51d3a1d81501/url HTTP/1.1" 200 0
+2024-02-13 21:51:28,454 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:51:28,454 | DEBUG | Finished Request
+2024-02-13 21:51:29,455 | DEBUG | POST http://localhost:57940/session/79edc498bb07c51bf48f51d3a1d81501/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]"}
+2024-02-13 21:51:29,491 | DEBUG | http://localhost:57940 "POST /session/79edc498bb07c51bf48f51d3a1d81501/element HTTP/1.1" 200 0
+2024-02-13 21:51:29,491 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"44A1F75F56A1BB75417D5A1B9AC5948E_element_417"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:51:29,491 | DEBUG | Finished Request
+2024-02-13 21:51:29,491 | DEBUG | POST http://localhost:57940/session/79edc498bb07c51bf48f51d3a1d81501/element/44A1F75F56A1BB75417D5A1B9AC5948E_element_417/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 21:51:29,607 | DEBUG | http://localhost:57940 "POST /session/79edc498bb07c51bf48f51d3a1d81501/element/44A1F75F56A1BB75417D5A1B9AC5948E_element_417/value HTTP/1.1" 200 0
+2024-02-13 21:51:29,608 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:51:29,608 | DEBUG | Finished Request
+2024-02-13 21:51:29,608 | DEBUG | POST http://localhost:57940/session/79edc498bb07c51bf48f51d3a1d81501/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[2]/div[1]/label[1]/input[1]"}
+2024-02-13 21:51:29,633 | DEBUG | http://localhost:57940 "POST /session/79edc498bb07c51bf48f51d3a1d81501/element HTTP/1.1" 200 0
+2024-02-13 21:51:29,634 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"44A1F75F56A1BB75417D5A1B9AC5948E_element_450"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:51:29,634 | DEBUG | Finished Request
+2024-02-13 21:51:29,634 | DEBUG | POST http://localhost:57940/session/79edc498bb07c51bf48f51d3a1d81501/element/44A1F75F56A1BB75417D5A1B9AC5948E_element_450/value {'text': 'qjarhfosksch', 'value': ['q', 'j', 'a', 'r', 'h', 'f', 'o', 's', 'k', 's', 'c', 'h']}
+2024-02-13 21:51:29,754 | DEBUG | http://localhost:57940 "POST /session/79edc498bb07c51bf48f51d3a1d81501/element/44A1F75F56A1BB75417D5A1B9AC5948E_element_450/value HTTP/1.1" 200 0
+2024-02-13 21:51:29,754 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:51:29,754 | DEBUG | Finished Request
+2024-02-13 21:51:29,755 | DEBUG | POST http://localhost:57940/session/79edc498bb07c51bf48f51d3a1d81501/element/44A1F75F56A1BB75417D5A1B9AC5948E_element_450/value {'text': '\ue006', 'value': ['\ue006']}
+2024-02-13 21:51:29,807 | DEBUG | http://localhost:57940 "POST /session/79edc498bb07c51bf48f51d3a1d81501/element/44A1F75F56A1BB75417D5A1B9AC5948E_element_450/value HTTP/1.1" 200 0
+2024-02-13 21:51:29,807 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 21:51:29,807 | DEBUG | Finished Request
+2024-02-13 22:00:27,635 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 22:00:27,636 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 22:00:29,129 | DEBUG | chromedriver not found in PATH
+2024-02-13 22:00:29,129 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 22:00:29,129 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 22:00:29,129 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 22:00:29,129 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 22:00:29,129 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 22:00:29,130 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 22:00:29,130 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 22:00:29,130 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 22:00:29,130 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 22:00:29,321 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 37160 using 0 to output -3
+2024-02-13 22:00:29,867 | DEBUG | POST http://localhost:58608/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 22:00:29,868 | DEBUG | Starting new HTTP connection (1): localhost:58608
+2024-02-13 22:00:31,380 | DEBUG | http://localhost:58608 "POST /session HTTP/1.1" 200 0
+2024-02-13 22:00:31,381 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir37160_385286779"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58614"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"eca16d87328a3edd6fb005df677efa35"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:31,381 | DEBUG | Finished Request
+2024-02-13 22:00:31,381 | DEBUG | POST http://localhost:58608/session/eca16d87328a3edd6fb005df677efa35/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 22:00:32,878 | DEBUG | http://localhost:58608 "POST /session/eca16d87328a3edd6fb005df677efa35/url HTTP/1.1" 200 0
+2024-02-13 22:00:32,878 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:32,879 | DEBUG | Finished Request
+2024-02-13 22:00:33,880 | DEBUG | POST http://localhost:58608/session/eca16d87328a3edd6fb005df677efa35/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]"}
+2024-02-13 22:00:33,896 | DEBUG | http://localhost:58608 "POST /session/eca16d87328a3edd6fb005df677efa35/element HTTP/1.1" 200 0
+2024-02-13 22:00:33,896 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"B5F8FDF562961B4C2DC290B7BFFC13F5_element_369"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:33,896 | DEBUG | Finished Request
+2024-02-13 22:00:33,896 | DEBUG | POST http://localhost:58608/session/eca16d87328a3edd6fb005df677efa35/element/B5F8FDF562961B4C2DC290B7BFFC13F5_element_369/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 22:00:34,020 | DEBUG | http://localhost:58608 "POST /session/eca16d87328a3edd6fb005df677efa35/element/B5F8FDF562961B4C2DC290B7BFFC13F5_element_369/value HTTP/1.1" 200 0
+2024-02-13 22:00:34,020 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:34,020 | DEBUG | Finished Request
+2024-02-13 22:00:34,020 | DEBUG | POST http://localhost:58608/session/eca16d87328a3edd6fb005df677efa35/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[2]/div[1]/label[1]/input[1]"}
+2024-02-13 22:00:34,044 | DEBUG | http://localhost:58608 "POST /session/eca16d87328a3edd6fb005df677efa35/element HTTP/1.1" 200 0
+2024-02-13 22:00:34,044 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"B5F8FDF562961B4C2DC290B7BFFC13F5_element_402"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:34,044 | DEBUG | Finished Request
+2024-02-13 22:00:34,044 | DEBUG | POST http://localhost:58608/session/eca16d87328a3edd6fb005df677efa35/element/B5F8FDF562961B4C2DC290B7BFFC13F5_element_402/value {'text': 'qjarhfosksch', 'value': ['q', 'j', 'a', 'r', 'h', 'f', 'o', 's', 'k', 's', 'c', 'h']}
+2024-02-13 22:00:34,139 | DEBUG | http://localhost:58608 "POST /session/eca16d87328a3edd6fb005df677efa35/element/B5F8FDF562961B4C2DC290B7BFFC13F5_element_402/value HTTP/1.1" 200 0
+2024-02-13 22:00:34,139 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:34,139 | DEBUG | Finished Request
+2024-02-13 22:00:34,139 | DEBUG | POST http://localhost:58608/session/eca16d87328a3edd6fb005df677efa35/element/B5F8FDF562961B4C2DC290B7BFFC13F5_element_402/value {'text': '\ue006', 'value': ['\ue006']}
+2024-02-13 22:00:34,193 | DEBUG | http://localhost:58608 "POST /session/eca16d87328a3edd6fb005df677efa35/element/B5F8FDF562961B4C2DC290B7BFFC13F5_element_402/value HTTP/1.1" 200 0
+2024-02-13 22:00:34,193 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:34,193 | DEBUG | Finished Request
+2024-02-13 22:00:39,195 | DEBUG | POST http://localhost:58608/session/eca16d87328a3edd6fb005df677efa35/element {'using': 'xpath', 'value': "//*[@role='button']"}
+2024-02-13 22:00:39,207 | DEBUG | http://localhost:58608 "POST /session/eca16d87328a3edd6fb005df677efa35/element HTTP/1.1" 200 0
+2024-02-13 22:00:39,207 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"165B2175300DFE91DB4D32BD4A2AC6E8_element_678"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:39,207 | DEBUG | Finished Request
+2024-02-13 22:00:39,207 | DEBUG | POST http://localhost:58608/session/eca16d87328a3edd6fb005df677efa35/element/165B2175300DFE91DB4D32BD4A2AC6E8_element_678/click {}
+2024-02-13 22:00:40,691 | DEBUG | http://localhost:58608 "POST /session/eca16d87328a3edd6fb005df677efa35/element/165B2175300DFE91DB4D32BD4A2AC6E8_element_678/click HTTP/1.1" 200 0
+2024-02-13 22:00:40,691 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:00:40,692 | DEBUG | Finished Request
+2024-02-13 22:05:21,813 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 22:05:21,813 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 22:05:23,320 | DEBUG | chromedriver not found in PATH
+2024-02-13 22:05:23,321 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 22:05:23,321 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 22:05:23,321 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 22:05:23,321 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 22:05:23,321 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 22:05:23,321 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 22:05:23,321 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 22:05:23,321 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 22:05:23,321 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 22:05:23,510 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 32880 using 0 to output -3
+2024-02-13 22:05:24,055 | DEBUG | POST http://localhost:59034/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 22:05:24,056 | DEBUG | Starting new HTTP connection (1): localhost:59034
+2024-02-13 22:05:25,460 | DEBUG | http://localhost:59034 "POST /session HTTP/1.1" 200 0
+2024-02-13 22:05:25,460 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir32880_1086530540"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59040"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"5aecd87216daa535e9b5087922fb2cbd"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:25,461 | DEBUG | Finished Request
+2024-02-13 22:05:25,461 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 22:05:26,945 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/url HTTP/1.1" 200 0
+2024-02-13 22:05:26,945 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:26,945 | DEBUG | Finished Request
+2024-02-13 22:05:27,946 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]"}
+2024-02-13 22:05:27,961 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/element HTTP/1.1" 200 0
+2024-02-13 22:05:27,961 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"E526DD222316800902F8C96C387D14BE_element_10"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:27,961 | DEBUG | Finished Request
+2024-02-13 22:05:27,961 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/element/E526DD222316800902F8C96C387D14BE_element_10/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 22:05:28,222 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/element/E526DD222316800902F8C96C387D14BE_element_10/value HTTP/1.1" 200 0
+2024-02-13 22:05:28,222 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:28,223 | DEBUG | Finished Request
+2024-02-13 22:05:28,223 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[2]/div[1]/label[1]/input[1]"}
+2024-02-13 22:05:28,258 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/element HTTP/1.1" 200 0
+2024-02-13 22:05:28,259 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"E526DD222316800902F8C96C387D14BE_element_11"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:28,259 | DEBUG | Finished Request
+2024-02-13 22:05:28,259 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/element/E526DD222316800902F8C96C387D14BE_element_11/value {'text': 'qjarhfosksch', 'value': ['q', 'j', 'a', 'r', 'h', 'f', 'o', 's', 'k', 's', 'c', 'h']}
+2024-02-13 22:05:28,374 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/element/E526DD222316800902F8C96C387D14BE_element_11/value HTTP/1.1" 200 0
+2024-02-13 22:05:28,375 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:28,375 | DEBUG | Finished Request
+2024-02-13 22:05:28,375 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/element/E526DD222316800902F8C96C387D14BE_element_11/value {'text': '\ue006', 'value': ['\ue006']}
+2024-02-13 22:05:28,419 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/element/E526DD222316800902F8C96C387D14BE_element_11/value HTTP/1.1" 200 0
+2024-02-13 22:05:28,436 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:28,436 | DEBUG | Finished Request
+2024-02-13 22:05:33,437 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/element {'using': 'xpath', 'value': "//*[@role='button']"}
+2024-02-13 22:05:33,449 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/element HTTP/1.1" 200 0
+2024-02-13 22:05:33,450 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"2F9B77335A2162D34810976B3964B2EA_element_265"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:33,450 | DEBUG | Finished Request
+2024-02-13 22:05:33,450 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/element/2F9B77335A2162D34810976B3964B2EA_element_265/click {}
+2024-02-13 22:05:35,574 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/element/2F9B77335A2162D34810976B3964B2EA_element_265/click HTTP/1.1" 200 0
+2024-02-13 22:05:35,574 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:35,574 | DEBUG | Finished Request
+2024-02-13 22:05:40,576 | DEBUG | POST http://localhost:59034/session/5aecd87216daa535e9b5087922fb2cbd/element {'using': 'xpath', 'value': "//button[contains(text(), '나중에 하기')"}
+2024-02-13 22:05:40,598 | DEBUG | http://localhost:59034 "POST /session/5aecd87216daa535e9b5087922fb2cbd/element HTTP/1.1" 400 0
+2024-02-13 22:05:40,598 | DEBUG | Remote response: status=400 | data={"value":{"error":"invalid selector","message":"invalid selector: Unable to locate an element with the xpath expression //button[contains(text(), '나중에 하기') because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[contains(text(), '나중에 하기')' is not a valid XPath expression.\n  (Session info: chrome=121.0.6167.161)","stacktrace":"\tGetHandleVerifier [0x00007FF6A5EA5E42+3538674]\n\t(No symbol) [0x00007FF6A5AC4C02]\n\t(No symbol) [0x00007FF6A5975AEB]\n\t(No symbol) [0x00007FF6A597AD39]\n\t(No symbol) [0x00007FF6A597D150]\n\t(No symbol) [0x00007FF6A597D210]\n\t(No symbol) [0x00007FF6A59BBBBC]\n\t(No symbol) [0x00007FF6A59BC0CC]\n\t(No symbol) [0x00007FF6A59FE477]\n\t(No symbol) [0x00007FF6A59DF0EF]\n\t(No symbol) [0x00007FF6A59FBDE3]\n\t(No symbol) [0x00007FF6A59DEE53]\n\t(No symbol) [0x00007FF6A59AF514]\n\t(No symbol) [0x00007FF6A59B0631]\n\tGetHandleVerifier [0x00007FF6A5ED6CAD+3738973]\n\tGetHandleVerifier [0x00007FF6A5F2C506+4089270]\n\tGetHandleVerifier [0x00007FF6A5F24823+4057299]\n\tGetHandleVerifier [0x00007FF6A5BF5C49+720121]\n\t(No symbol) [0x00007FF6A5AD126F]\n\t(No symbol) [0x00007FF6A5ACC304]\n\t(No symbol) [0x00007FF6A5ACC432]\n\t(No symbol) [0x00007FF6A5ABBD04]\n\tBaseThreadInitThunk [0x00007FFA34FE7034+20]\n\tRtlUserThreadStart [0x00007FFA35682651+33]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1361', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:05:40,598 | DEBUG | Finished Request
+2024-02-13 22:07:07,893 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 22:07:07,894 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 22:07:09,411 | DEBUG | chromedriver not found in PATH
+2024-02-13 22:07:09,411 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 22:07:09,411 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 22:07:09,412 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 22:07:09,412 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 22:07:09,412 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 22:07:09,412 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 22:07:09,412 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 22:07:09,412 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 22:07:09,412 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 22:07:09,606 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 25412 using 0 to output -3
+2024-02-13 22:07:10,140 | DEBUG | POST http://localhost:59194/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 22:07:10,140 | DEBUG | Starting new HTTP connection (1): localhost:59194
+2024-02-13 22:07:11,533 | DEBUG | http://localhost:59194 "POST /session HTTP/1.1" 200 0
+2024-02-13 22:07:11,534 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir25412_894496323"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59200"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"90b9e38814ec137ef72df004409bd20a"}} | headers=HTTPHeaderDict({'Content-Length': '885', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:11,534 | DEBUG | Finished Request
+2024-02-13 22:07:11,534 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 22:07:12,865 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/url HTTP/1.1" 200 0
+2024-02-13 22:07:12,865 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:12,865 | DEBUG | Finished Request
+2024-02-13 22:07:13,866 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]"}
+2024-02-13 22:07:13,890 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/element HTTP/1.1" 200 0
+2024-02-13 22:07:13,890 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"ABB7085A9458C98BFA75A3FC30A67A38_element_412"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:13,890 | DEBUG | Finished Request
+2024-02-13 22:07:13,891 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/element/ABB7085A9458C98BFA75A3FC30A67A38_element_412/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 22:07:14,009 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/element/ABB7085A9458C98BFA75A3FC30A67A38_element_412/value HTTP/1.1" 200 0
+2024-02-13 22:07:14,009 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:14,009 | DEBUG | Finished Request
+2024-02-13 22:07:14,009 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[2]/div[1]/label[1]/input[1]"}
+2024-02-13 22:07:14,023 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/element HTTP/1.1" 200 0
+2024-02-13 22:07:14,023 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"ABB7085A9458C98BFA75A3FC30A67A38_element_445"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:14,024 | DEBUG | Finished Request
+2024-02-13 22:07:14,024 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/element/ABB7085A9458C98BFA75A3FC30A67A38_element_445/value {'text': 'qjarhfosksch', 'value': ['q', 'j', 'a', 'r', 'h', 'f', 'o', 's', 'k', 's', 'c', 'h']}
+2024-02-13 22:07:14,132 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/element/ABB7085A9458C98BFA75A3FC30A67A38_element_445/value HTTP/1.1" 200 0
+2024-02-13 22:07:14,133 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:14,133 | DEBUG | Finished Request
+2024-02-13 22:07:14,133 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/element/ABB7085A9458C98BFA75A3FC30A67A38_element_445/value {'text': '\ue006', 'value': ['\ue006']}
+2024-02-13 22:07:14,189 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/element/ABB7085A9458C98BFA75A3FC30A67A38_element_445/value HTTP/1.1" 200 0
+2024-02-13 22:07:14,189 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:14,189 | DEBUG | Finished Request
+2024-02-13 22:07:19,191 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/element {'using': 'xpath', 'value': "//*[@role='button']"}
+2024-02-13 22:07:19,203 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/element HTTP/1.1" 200 0
+2024-02-13 22:07:19,203 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"080EDBADB4C062C0297845BE9137F424_element_721"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:19,203 | DEBUG | Finished Request
+2024-02-13 22:07:19,203 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/element/080EDBADB4C062C0297845BE9137F424_element_721/click {}
+2024-02-13 22:07:20,473 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/element/080EDBADB4C062C0297845BE9137F424_element_721/click HTTP/1.1" 200 0
+2024-02-13 22:07:20,474 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:20,474 | DEBUG | Finished Request
+2024-02-13 22:07:25,475 | DEBUG | POST http://localhost:59194/session/90b9e38814ec137ef72df004409bd20a/element {'using': 'xpath', 'value': "//*[@role='dialog']//button[contains(text(), '나중에 하기')"}
+2024-02-13 22:07:25,497 | DEBUG | http://localhost:59194 "POST /session/90b9e38814ec137ef72df004409bd20a/element HTTP/1.1" 400 0
+2024-02-13 22:07:25,497 | DEBUG | Remote response: status=400 | data={"value":{"error":"invalid selector","message":"invalid selector: Unable to locate an element with the xpath expression //*[@role='dialog']//button[contains(text(), '나중에 하기') because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@role='dialog']//button[contains(text(), '나중에 하기')' is not a valid XPath expression.\n  (Session info: chrome=121.0.6167.161)","stacktrace":"\tGetHandleVerifier [0x00007FF6A5EA5E42+3538674]\n\t(No symbol) [0x00007FF6A5AC4C02]\n\t(No symbol) [0x00007FF6A5975AEB]\n\t(No symbol) [0x00007FF6A597AD39]\n\t(No symbol) [0x00007FF6A597D150]\n\t(No symbol) [0x00007FF6A597D210]\n\t(No symbol) [0x00007FF6A59BBBBC]\n\t(No symbol) [0x00007FF6A59BC0CC]\n\t(No symbol) [0x00007FF6A59FE477]\n\t(No symbol) [0x00007FF6A59DF0EF]\n\t(No symbol) [0x00007FF6A59FBDE3]\n\t(No symbol) [0x00007FF6A59DEE53]\n\t(No symbol) [0x00007FF6A59AF514]\n\t(No symbol) [0x00007FF6A59B0631]\n\tGetHandleVerifier [0x00007FF6A5ED6CAD+3738973]\n\tGetHandleVerifier [0x00007FF6A5F2C506+4089270]\n\tGetHandleVerifier [0x00007FF6A5F24823+4057299]\n\tGetHandleVerifier [0x00007FF6A5BF5C49+720121]\n\t(No symbol) [0x00007FF6A5AD126F]\n\t(No symbol) [0x00007FF6A5ACC304]\n\t(No symbol) [0x00007FF6A5ACC432]\n\t(No symbol) [0x00007FF6A5ABBD04]\n\tBaseThreadInitThunk [0x00007FFA34FE7034+20]\n\tRtlUserThreadStart [0x00007FFA35682651+33]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1399', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:07:25,497 | DEBUG | Finished Request
+2024-02-13 22:09:15,553 | DEBUG | Selenium Manager binary found at: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-02-13 22:09:15,554 | DEBUG | Executing process: c:\Users\irenelynnq\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-02-13 22:09:17,029 | DEBUG | chromedriver not found in PATH
+2024-02-13 22:09:17,029 | DEBUG | chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 22:09:17,029 | DEBUG | Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-02-13 22:09:17,029 | DEBUG | Output: "\r\r\n\r\r\nVersion=121.0.6167.161\r\r\n\r\r\n\r\r\n\r"
+2024-02-13 22:09:17,029 | DEBUG | Detected browser: chrome 121.0.6167.161
+2024-02-13 22:09:17,029 | DEBUG | Required driver: chromedriver 121.0.6167.85
+2024-02-13 22:09:17,030 | DEBUG | chromedriver 121.0.6167.85 already in the cache
+2024-02-13 22:09:17,030 | DEBUG | Driver path: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 22:09:17,030 | DEBUG | Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-02-13 22:09:17,030 | DEBUG | Using driver at: C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-13 22:09:17,219 | DEBUG | Started executable: `C:\Users\irenelynnq\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe` in a child process with pid: 37160 using 0 to output -3
+2024-02-13 22:09:17,772 | DEBUG | POST http://localhost:59387/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'detach': True, 'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-02-13 22:09:17,773 | DEBUG | Starting new HTTP connection (1): localhost:59387
+2024-02-13 22:09:19,190 | DEBUG | http://localhost:59387 "POST /session HTTP/1.1" 200 0
+2024-02-13 22:09:19,216 | DEBUG | Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"121.0.6167.161","chrome":{"chromedriverVersion":"121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})","userDataDir":"C:\\Users\\IRENEL~1\\AppData\\Local\\Temp\\scoped_dir37160_1095417810"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59397"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"06f0cf65f97a1edb5c87fdbcd31bf7e4"}} | headers=HTTPHeaderDict({'Content-Length': '886', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:19,216 | DEBUG | Finished Request
+2024-02-13 22:09:19,217 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/url {'url': 'https://www.instagram.com/accounts/login/'}
+2024-02-13 22:09:20,561 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/url HTTP/1.1" 200 0
+2024-02-13 22:09:20,561 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:20,561 | DEBUG | Finished Request
+2024-02-13 22:09:21,562 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]"}
+2024-02-13 22:09:21,584 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element HTTP/1.1" 200 0
+2024-02-13 22:09:21,584 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"1D51AAEC59C760E8E7F75C34325A2ED4_element_7"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:21,584 | DEBUG | Finished Request
+2024-02-13 22:09:21,584 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/1D51AAEC59C760E8E7F75C34325A2ED4_element_7/value {'text': 'orca0orchid', 'value': ['o', 'r', 'c', 'a', '0', 'o', 'r', 'c', 'h', 'i', 'd']}
+2024-02-13 22:09:21,696 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/1D51AAEC59C760E8E7F75C34325A2ED4_element_7/value HTTP/1.1" 200 0
+2024-02-13 22:09:21,696 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:21,697 | DEBUG | Finished Request
+2024-02-13 22:09:21,697 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element {'using': 'xpath', 'value': "//*[@id='loginForm']/div[1]/div[2]/div[1]/label[1]/input[1]"}
+2024-02-13 22:09:21,708 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element HTTP/1.1" 200 0
+2024-02-13 22:09:21,708 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"1D51AAEC59C760E8E7F75C34325A2ED4_element_8"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:21,708 | DEBUG | Finished Request
+2024-02-13 22:09:21,708 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/1D51AAEC59C760E8E7F75C34325A2ED4_element_8/value {'text': 'qjarhfosksch', 'value': ['q', 'j', 'a', 'r', 'h', 'f', 'o', 's', 'k', 's', 'c', 'h']}
+2024-02-13 22:09:21,811 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/1D51AAEC59C760E8E7F75C34325A2ED4_element_8/value HTTP/1.1" 200 0
+2024-02-13 22:09:21,812 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:21,812 | DEBUG | Finished Request
+2024-02-13 22:09:21,812 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/1D51AAEC59C760E8E7F75C34325A2ED4_element_8/value {'text': '\ue006', 'value': ['\ue006']}
+2024-02-13 22:09:21,859 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/1D51AAEC59C760E8E7F75C34325A2ED4_element_8/value HTTP/1.1" 200 0
+2024-02-13 22:09:21,859 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:21,859 | DEBUG | Finished Request
+2024-02-13 22:09:26,860 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element {'using': 'xpath', 'value': "//*[@role='button']"}
+2024-02-13 22:09:26,872 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element HTTP/1.1" 200 0
+2024-02-13 22:09:26,872 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"019BA05B44C31014152774791495A27B_element_253"}} | headers=HTTPHeaderDict({'Content-Length': '96', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:26,872 | DEBUG | Finished Request
+2024-02-13 22:09:26,872 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/019BA05B44C31014152774791495A27B_element_253/click {}
+2024-02-13 22:09:29,065 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/019BA05B44C31014152774791495A27B_element_253/click HTTP/1.1" 200 0
+2024-02-13 22:09:29,066 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:29,066 | DEBUG | Finished Request
+2024-02-13 22:09:34,067 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element {'using': 'xpath', 'value': "//*[@role='dialog']//button[contains(text(), '나중에')]"}
+2024-02-13 22:09:34,082 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element HTTP/1.1" 200 0
+2024-02-13 22:09:34,082 | DEBUG | Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"B087F3A6D0ECD32363CE9A95F3F74BA9_element_1385"}} | headers=HTTPHeaderDict({'Content-Length': '97', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:34,082 | DEBUG | Finished Request
+2024-02-13 22:09:34,082 | DEBUG | POST http://localhost:59387/session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/B087F3A6D0ECD32363CE9A95F3F74BA9_element_1385/click {}
+2024-02-13 22:09:34,146 | DEBUG | http://localhost:59387 "POST /session/06f0cf65f97a1edb5c87fdbcd31bf7e4/element/B087F3A6D0ECD32363CE9A95F3F74BA9_element_1385/click HTTP/1.1" 200 0
+2024-02-13 22:09:34,146 | DEBUG | Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-02-13 22:09:34,147 | DEBUG | Finished Request
