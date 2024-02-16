@@ -13,10 +13,7 @@ chrome_options.add_experimental_option("detach", True)
 cr_id = "orca0orchid"
 cr_pw = "qjarhfosksch"
 
-def login(id, pw):
-    browser = webdriver.Chrome(options=chrome_options)
-    browser.get("https://www.instagram.com/accounts/login/")
-    time.sleep(1)
+def login(browser, id, pw):
     input_id = browser.find_element(By.XPATH, "//*[@id='loginForm']/div[1]/div[1]/div[1]/label[1]/input[1]")
     input_id.send_keys(id)
     input_pw = browser.find_element(By.XPATH, "//*[@id='loginForm']/div[1]/div[2]/div[1]/label[1]/input[1]")
@@ -38,7 +35,7 @@ def word_url(word):
 
 def select_first(driver):
     first = driver.find_elements(By.XPATH, "//article//a[@role='link']")
-    first.click()
+    first[0].click()
     time.sleep(5)
 
 def get_content(driver):
@@ -57,17 +54,41 @@ def get_content(driver):
     data = [content, tags]
     return data
 
+#here
 def move_next(driver):
-    right = driver.find_element(By.CSS_SELECTOR('a.coreSpriteRightPaginationArrow'))
+    right = driver.find_element(By.XPATH, "//dialog//svg[@aria-label='다음']")
     right.click()
     time.sleep(3)
         
 
 def main():
     logging.basicConfig(filename='CheckLog.log', level=logging.DEBUG, format='%(asctime)s | %(levelname)s | %(message)s')
-    #실행부
-    login(cr_id, cr_pw)
     
+    word = "beautytips"
+    results = []
+    targetNum = 10
+    
+    #실행부
+    browser = webdriver.Chrome(options=chrome_options)
+    browser.get("https://www.instagram.com/accounts/login/")
+    time.sleep(1)
+    login(browser, cr_id, cr_pw)
+    browser.get(word_url(word))
+    time.sleep(10)
+    select_first(browser)
+
+    for i in range(targetNum):
+        try:
+            data = get_content(browser)
+            results.append(data)
+            move_next(browser)
+        except:
+            time.sleep(2)
+            move_next(browser)
+        time.sleep(5)
+
+    print(results)
+  
 
 
 
